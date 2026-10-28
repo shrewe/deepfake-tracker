@@ -1,0 +1,77 @@
+
+# ==============================
+# Node.js dependencies
+# ==============================
+node_modules/
+
+# ==============================
+# Build output
+# ==============================
+dist/
+build/
+coverage/
+
+# ==============================
+# Environment variables and secrets
+# ==============================
+.env
+.env.*
+!.env.example
+backend/.env
+
+# ==============================
+# Python virtual environments
+# ==============================
+backend/.venv/
+.venv/
+venv/
+env/
+
+# ==============================
+# Python cache and compiled files
+# ==============================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# ==============================
+# Test and tool caches
+# ==============================
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# ==============================
+# Logs
+# ==============================
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# ==============================
+# IDE and editor files
+# ==============================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ==============================
+# Operating system files
+# ==============================
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# ==============================
+# Local database and backup files
+# ==============================
+*.sql
+*.sqlite
+*.sqlite3
+*.db
+*.bak
+*.backup
